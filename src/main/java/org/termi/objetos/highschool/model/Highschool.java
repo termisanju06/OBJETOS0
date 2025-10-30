@@ -1,4 +1,4 @@
-package org.termi.objetos.highschool;
+package org.termi.objetos.highschool.model;
 
 import java.util.Arrays;
 import java.util.Objects;
