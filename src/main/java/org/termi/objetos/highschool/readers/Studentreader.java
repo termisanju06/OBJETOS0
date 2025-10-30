@@ -20,7 +20,7 @@ public class Studentreader {
         System.out.println("Dame tu dirección");
         String address = sc.nextLine();
 
-        Student student = new Student(name,surname,address);
-        return student;
+//        Student student = new Student(name,surname,address);
+        return new Student(name,surname,address);
     }
 }

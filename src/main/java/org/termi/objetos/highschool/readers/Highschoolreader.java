@@ -26,7 +26,7 @@ public class Highschoolreader {
             students[i] = studentreader.read();
         }
 
-        Highschool highschool = new Highschool(name,students);
-        return highschool;
+//        Highschool highschool = new Highschool(name,students);
+        return new Highschool(name,students);
     }
 }
