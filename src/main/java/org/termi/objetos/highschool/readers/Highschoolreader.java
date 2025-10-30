@@ -25,6 +25,7 @@ public class Highschoolreader {
         for (int i = 0;i<a;i++){
             students[i] = studentreader.read();
         }
+
         Highschool highschool = new Highschool(name,students);
         return highschool;
     }
